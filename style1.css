@@ -263,23 +263,6 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   }
   
-  .plan__image img:nth-child(1) {
-    max-width: 290px;
-    transform: translate(calc(-60% - 5rem), calc(-40% + 5rem));
-    z-index: 3;
-  }
-  
-  .plan__image img:nth-child(2) {
-    max-width: 340px;
-    transform: translate(-50%, calc(-50% - 5rem));
-    z-index: 2;
-  }
-  
-  .plan__image img:nth-child(3) {
-    max-width: 350px;
-    transform: translate(calc(-50% + 9rem), calc(-50% + 5rem));
-  }
-  
   .memories {
     background-color: var(--extra-light);
   }
