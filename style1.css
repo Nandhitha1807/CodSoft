@@ -17,7 +17,7 @@
   .section__container {
     max-width: var(--max-width);
     margin: auto;
-    padding: 4rem 0.5rem;
+    padding: 4rem 1rem;
   }
   
   .section__header {
@@ -264,19 +264,19 @@
   }
   
   .plan__image img:nth-child(1) {
-    max-width: 250px;
-    transform: translate(calc(-50% - 9rem), calc(-50% + 5rem));
+    max-width: 290px;
+    transform: translate(calc(-60% - 5rem), calc(-40% + 5rem));
     z-index: 3;
   }
   
   .plan__image img:nth-child(2) {
-    max-width: 260px;
+    max-width: 340px;
     transform: translate(-50%, calc(-50% - 5rem));
     z-index: 2;
   }
   
   .plan__image img:nth-child(3) {
-    max-width: 230px;
+    max-width: 350px;
     transform: translate(calc(-50% + 9rem), calc(-50% + 5rem));
   }
   
