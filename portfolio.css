@@ -335,67 +335,50 @@ img {
 }
 
 .skill_html {
-  width: 95%;
+  width: 90%;
 }
 
 .skill_css {
   width: 85%;
 }
 
-.skill_js {
-  width: 75%;
+.skill_C {
+  width: 90%;
 }
 
 .skill_ui {
-  width: 85%;
+  width: 90%;
 }
 
-/* WORK */
+/* Resume */
 
-.work {
+.resume{
+  width: 100%;
   text-align: center;
+  font-size: medium;
+  font-style: italic;
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: #4070f4;
+  color: aliceblue;
+}
+.button
+{
+  background-color: #000304;
+  padding: 1rem ;
+  border-radius: 50%;
+}
+a
+{
+   color: #000102;
 }
 
-.work_container {
-  row-gap: 2rem;
-}
 
-.work_img {
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.work_img img {
-  transition: 1s;
-  cursor: pointer;
-}
-
-.work_img img:hover {
-  transform: scale(1.1);
-}
 
 /* Contact */
 
-.control_input {
-  width: 100%;
-  font-size: var(--nomral-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
 
-.control_button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--nomral-font-size);
-  cursor: pointer;
-  margin-left: auto;
-}
+
 
 /* Footer */
 .footer {
